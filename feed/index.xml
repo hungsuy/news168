@@ -12,12 +12,27 @@
 	<atom:link href="https://hungsuy.github.io/news168/feed/" rel="self" type="application/rss+xml" />
 	<link>https://hungsuy.github.io/news168</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sun, 22 Apr 2018 17:25:49 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Apr 2018 03:55:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
+		<title>Hello</title>
+		<link>https://hungsuy.github.io/news168/2018/04/23/hello/</link>
+		<comments>https://hungsuy.github.io/news168/2018/04/23/hello/#respond</comments>
+		<pubDate>Mon, 23 Apr 2018 03:55:23 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://hungsuy.github.io/news168/?p=14</guid>
+		<description><![CDATA[hi hello]]></description>
+				<content:encoded><![CDATA[<p>hi hello</p>
+]]></content:encoded>
+			<wfw:commentRss>https://hungsuy.github.io/news168/2018/04/23/hello/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>មាន សូនីតា ទាំងស្អាតៗ ទាំងពូកែបែបនេះ បុរសណាមិនលង់ស្នេហ៍</title>
 		<link>https://hungsuy.github.io/news168/2018/04/22/%e1%9e%98%e1%9e%b6%e1%9e%93-%e1%9e%9f%e1%9e%bc%e1%9e%93%e1%9e%b8%e1%9e%8f%e1%9e%b6-%e1%9e%91%e1%9e%b6%e1%9f%86%e1%9e%84%e1%9e%9f%e1%9f%92%e1%9e%a2%e1%9e%b6%e1%9e%8f%e1%9f%97-%e1%9e%91%e1%9e%b6/</link>
 		<comments>https://hungsuy.github.io/news168/2018/04/22/%e1%9e%98%e1%9e%b6%e1%9e%93-%e1%9e%9f%e1%9e%bc%e1%9e%93%e1%9e%b8%e1%9e%8f%e1%9e%b6-%e1%9e%91%e1%9e%b6%e1%9f%86%e1%9e%84%e1%9e%9f%e1%9f%92%e1%9e%a2%e1%9e%b6%e1%9e%8f%e1%9f%97-%e1%9e%91%e1%9e%b6/#respond</comments>
