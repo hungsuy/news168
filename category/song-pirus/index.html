@@ -1,57 +1,55 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
-    <link rel="icon" href="https://dl.dropbox.com/s/nksn0vhzkwa6bko/favicon.ico" type="image/x-icon" />
-	<title>MP3</title>
-    <script type="text/javascript" charset="UTF-8" src="http://www.w3cplus.com/demo/css3/prefixfree.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://www.w3cplus.com/demo/css3/base.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="https://dl.dropbox.com/s/5zlnojr9hclglcs/styles.css" media="all" ></link>
-	
-	
-
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
 </head>
 <body>
-<div class="page">
-    <section class="demo">
-        <div id="myAudio" style="margin:0 auto;">
-            <audio>
-				<source title="បើស្រលាញ់ម្ដេចទុកអូនចោល" src="https://dl.dropbox.com/s/5df4jxfz3k3c86y/bersrolanhmijtokounjol.mp3" />
-			</audio>
-			<audio>
-				<source title="នឹកគ្រប់វេលា" src="https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3" />
-			</audio>
-			<audio>
-				<source title="ជីវិតមួយបេះដូងពីរ" src="https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3" />
-			</audio>
-			<audio>
-				<source title="កណ្ដាលដួងចិត្ត" src="https://dl.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3" />
-			</audio>
-			<audio>
-				<source title="ក្រោមមេឃលើដី" src="https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3" />
-			</audio>
-			<audio>
-				<source title="សម្រស់សោភា" src="https://dl.dropbox.com/s/bdyi484wzhwhija/somros%20sophea.mp3" />
-			</audio>
-			<audio>
-				<source title="សូរិយាគង់ព្រៃ" src="https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3" />
-			</audio>
-            <audio>
-				<source title="បងស្រលាញ់អូនលើសហើយ" src="https://dl.dropbox.com/s/v4eh0awgxmx9nei/bongsneounlershery.mp3" />
-			</audio>
-			
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
 		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://dl.dropbox.com/s/old6raso23gcwh9/AudioPlayer.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				$("#myAudio").initAudio();
-			});
-		</script>
-    </section>
-    <section id="ad_w3cplus">
-        <div class="grid-ad">
-        <script type="text/javascript">
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="Linkin Park - Papercut.mp3" cover="cover1.jpg" artist="Linkin Park">Papercut.mp3</li>
+			<li song="Linkin Park - One Step Closer.mp3" cover="cover1.jpg" artist="Linkin Park">One Step Closer.mp3</li>
+			<li song="Linkin Park - With You.mp3" cover="cover1.jpg" artist="Linkin Park">With You.mp3</li>
+			<li song="Linkin Park - Points Of Authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points Of Authority.mp3</li>
+			<li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
+			<li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
+			<li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
+			<li song="Linkin Park - In The End.mp3" cover="cover1.jpg" artist="Linkin Park">In The End.mp3</li>
+			<li song="Linkin Park - A Place For My Head.mp3" cover="cover1.jpg" artist="Linkin Park">A Place For My Head.mp3</li>
+			<li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
+			<li song="Linkin Park - Cure For The Itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure For The Itch.mp3</li>
+			<li song="Linkin Park - Pushing Me Away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing Me Away.mp3</li>
+		</ul>
+	</div>
+
 </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
