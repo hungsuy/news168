@@ -111,6 +111,20 @@ function aplayer1 () {
             url: 'https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3',
             cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             theme: '#505d6b'
+			
+			},{
+            name: 'សម្រស់សោភា',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/bdyi484wzhwhija/somros%20sophea.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            theme: '#505d6b'
+			
+			},{
+            name: 'សូរិយាគងព្រៃ',
+            artist: 'កែវ សារ៉ាត់',
+            url: 'https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3',
+            cover: 'https://dl.dropbox.com/s/031btrjqw45gdy3/05-04-2018-800x445.jpg',
+            theme: '#505d6b'
         }]
     });
 }
