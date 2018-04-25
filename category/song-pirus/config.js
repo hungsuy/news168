@@ -87,7 +87,7 @@ function aplayer1 () {
         audio: [{
             name: '光るなら',
             artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
+            url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
             cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
