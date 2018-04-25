@@ -105,7 +105,7 @@ function aplayer1 () {
             cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             theme: '#505d6b'
 			
-			{
+		}, {
             name: 'ក្រោមមេឃលើដី',
             artist: 'ស៊ីនស៊ីសាមុត',
             url: 'https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3',
