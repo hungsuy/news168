@@ -99,11 +99,17 @@ function aplayer1 () {
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
-            name: '前前前世',
-            artist: 'RADWIMPS',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.jpg',
-            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.lrc',
+            name: 'កណ្ដាលដួងចិត្ត',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            theme: '#505d6b'
+			
+			{
+            name: 'ក្រោមមេឃលើដី',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             theme: '#505d6b'
         }]
     });
