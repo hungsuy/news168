@@ -1,38 +1,39 @@
 ---
-search: english
+nav: zh-Hans
+search: zh-Hans
 ---
 
 # APlayer
 
 🍭 Wow, such a beautiful HTML5 music player
 
-## Special Sponsors
+## 特别赞助商
 
 <a href="https://pear.hk/" target="_blank">
     <img width="222px" src="https://i.imgur.com/5qQYmfc.png">
 </a>
-<a href="https://www.upyun.com/" target="_blank">
+<a href="https://console.upyun.com/register/?invite=BkLZ2Xqob" target="_blank">
     <img width="222px" src="https://imgur.com/apG1uKf.png">
 </a>
 
-## Installation
+## 安装
 
-Using npm:
+使用 npm:
 
 ```
 npm install aplayer --save
 ```
 
-Using Yarn:
+使用 Yarn:
 
 ```
 yarn add aplayer
 ```
 
-## Quick Start
+## 入门
 
 <div class="aplayer-wrap">
-    <div id="aplayer2"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer2"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```html
@@ -53,47 +54,47 @@ const ap = new APlayer({
 });
 ```
 
-Work with module bundler:
+使用模块管理器:
 
 ```js
-import 'aplayer/dist/APlayer.min.css';
-import APlayer from 'aplayer';
+import 'APlayer/dist/APlayer.min.css';
+import APlayer from 'APlayer';
 
 const ap = new APlayer(options);
 ```
 
-## Options
+## 参数
 
-Name | Default | Description
+名称 | 默认值 | 描述
 ----|-------|----
-container | document.querySelector('.aplayer') | player container
-fixed | false | enable fixed mode, [see more details](https://aplayer.js.org/#/home?id=fixed-mode)
-mini | false | enable mini mode, [see more details](https://aplayer.js.org/#/home?id=mini-mode)
-autoplay | false | audio autoplay
-theme | '#b7daff' | main color
-loop | 'all' | player loop play, values: 'all', 'one', 'none'
-order | 'list' | player play order, values: 'list', 'random'
-preload | 'auto' | values: 'none', 'metadata', 'auto'
-volume | 0.7 | default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
-audio | - | audio info, should be an object or object array
-audio.name | - | audio name
-audio.artist | - | audio artist
-audio.url | - | audio url
-audio.cover | - | audio cover
-audio.lrc | - | [see more details](https://aplayer.js.org/#/home?id=lrc)
-audio.theme | - | main color when switching to this audio, it has priority over the above theme
-audio.type | 'auto' | values: 'auto', 'hls', 'normal' or other custom type, [see more details](https://aplayer.js.org/#/home?id=mse-support)
-customAudioType | - | [see more details](https://aplayer.js.org/#/home?id=mse-support)
-mutex | true | prevent to play multiple player at the same time, pause other players when this player start play
-lrcType | 0 | [see more details](https://aplayer.js.org/#/home?id=lrc)
-listFolded | false | indicate whether list should folded at first
-listMaxHeight | - | list max height
-storageName | 'aplayer-setting' | localStorage key that store player setting
+container | document.querySelector('.aplayer') | 播放器容器元素
+fixed | false | 开启吸底模式, [详情](https://aplayer.js.org/#/home?id=fixed-mode)
+mini | false | 开启迷你模式, [详情](https://aplayer.js.org/#/home?id=mini-mode)
+autoplay | false | 音频自动播放
+theme | '#b7daff' | 主题色
+loop | 'all' | 音频循环播放, 可选值: 'all', 'one', 'none'
+order | 'list' | 音频循环顺序, 可选值: 'list', 'random'
+preload | 'auto' | 预加载，可选值: 'none', 'metadata', 'auto'
+volume | 0.7 | 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+audio | - | 音频信息, 应该是一个对象或对象数组
+audio.name | - | 音频名称
+audio.artist | - | 音频艺术家
+audio.url | - | 音频链接
+audio.cover | - | 音频封面
+audio.lrc | - | [详情](https://aplayer.js.org/#/home?id=lrc)
+audio.theme | - | 切换到此音频时的主题色，比上面的 theme 优先级高
+audio.type | 'auto' | 可选值: 'auto', 'hls', 'normal' 或其他自定义类型, [详情](https://aplayer.js.org/#/home?id=mse-support)
+customAudioType | - | 自定义类型，[详情](https://aplayer.js.org/#/home?id=mse-support)
+mutex | true | 互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
+lrcType | 0 | [详情](https://aplayer.js.org/#/home?id=lrc)
+listFolded | false | 列表默认折叠
+listMaxHeight | - | 列表最大高度
+storageName | 'aplayer-setting' | 存储播放器设置的 localStorage key
 
-For example:
+例如:
 
 <div class="aplayer-wrap">
-    <div id="aplayer3"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer3"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```js
@@ -133,67 +134,67 @@ const ap = new APlayer({
 
 ## API
 
-+ `APlayer.version`: static property, return the version of APlayer
++ `APlayer.version`: 静态属性, 返回 APlayer 的版本号
 
-+ `ap.play()`: play audio
++ `ap.play()`: 播放音频
 
-+ `ap.pause()`: pause audio
++ `ap.pause()`: 暂停音频
 
-+ `ap.seek(time: number)`: seek to specified time, the unit of time is second
++ `ap.seek(time: number)`: 跳转到特定时间，时间的单位为秒
 
   ```js
   ap.seek(100);
   ```
 
-+ `ap.toggle()`: toggle between play and pause
++ `ap.toggle()`: 切换播放和暂停
 
-+ `ap.on(event: string, handler: function)`: bind audio and player events, [see more details](https://aplayer.js.org/#/home?id=event-binding)
-
-+ `ap.volume(percentage: number, nostorage: boolean)`: set audio volume
++ `ap.on(event: string, handler: function)`: 绑定音频和播放器事件，[详情](https://aplayer.js.org/#/home?id=event-binding)
+  
++ `ap.volume(percentage: number, nostorage: boolean)`: 设置音频音量
 
   ```js
   ap.volume(0.1, true);
   ```
 
-+ `ap.theme(color: string, index: number)`: set player theme, the default of index is current audio index
++ `ap.theme(color: string, index: number)`: 设置播放器主题色, index 默认为当前音频的 index
 
   ```js
   ap.theme('#000', 0);
   ```
 
-+ `ap.setMode(mode: string)`: set player mode, the value of mode should be 'mini' or 'normal'
++ `ap.setMode(mode: string)`: 设置播放器模式，mode 取值应为 'mini' 或 'normal'
 
-+ `ap.mode`: return current player mode, 'mini' or 'normal'
++ `ap.mode`: 返回播放器当前模式，'mini' 或 'normal'
 
-+ `ap.notice(text: string, time: number, opacity: number)`: show message, the unit of time is millisecond, the default of time is 2000, the default of opacity is 0.8, setting time to 0 can disable notice autohide.
++ `ap.notice(text: string, time: number, opacity: number)`: 显示通知，时间的单位为毫秒，默认时间 2000 毫秒，默认透明度 0.8，设置时间为 0 可以取消通知自动隐藏
 
   ```js
   ap.notice('Amazing player', 2000, 0.8);
   ```
 
-+ `ap.skipBack()`: skip to previous audio
++ `ap.skipBack()`: 切换到下一首音频
 
-+ `ap.skipForward()`: skip to next audio
++ `ap.skipForward()`: 切换到上一首音频
 
-+ `ap.destroy()`: destroy player
++ `ap.destroy()`: 销毁播放器
 
 + `ap.lrc`
 
-  + `ap.lrc.show()`: show lrc
+  + `ap.lrc.show()`: 显示歌词
 
-  + `ap.lrc.hide()`: hide lrc
+  + `ap.lrc.hide()`: 隐藏歌词
 
-  + `ap.lrc.toggle()`: toggle lrc between show and hide
+  + `ap.lrc.toggle()`: 显示/隐藏歌词
 
 + `ap.list`
 
-  + `ap.list.show()`: show list
+  + `ap.list.show()`: 显示播放列表
 
-  + `ap.list.hide()`: hide list
+  + `ap.list.hide()`: 隐藏播放列表
 
-  + `ap.list.toggle()`: toggle list between show and hide
+  + `ap.list.toggle()`: 显示/隐藏播放列表
 
-  + `ap.list.add(audios: array | object)`: add new audios to the list
+  + `ap.list.add(audios: array | object)`: 添加一个或几个新音频到播放列表
 
   ```js
   ap.list.add([{
@@ -206,31 +207,31 @@ const ap = new APlayer({
   }]);
   ```
 
-  + `ap.list.remove(index: number)`: remove an audio from the list
+  + `ap.list.remove(index: number)`: 移除播放列表中的一个音频
 
   ```js
   ap.list.remove(1);
   ```
 
-  + `ap.list.switch()`: switch to an audio in the list
+  + `ap.list.switch()`: 切换到播放列表里的其他音频
 
   ```js
   ap.list.switch(1);
   ```
 
-  + `ap.list.clear()`: remove all audios from the list
+  + `ap.list.clear()`: 清空播放列表
 
-+ `ap.audio`: native audio
++ `ap.audio`: 原生 audio
 
- + `ap.audio.currentTime`: returns the current playback position
+ + `ap.audio.currentTime`: 返回音频当前播放时间
 
- + `ap.audio.duration`: returns audio total time
+ + `ap.audio.duration`: 返回音频总时间
 
- + `ap.audio.paused`: returns whether the audio paused
+ + `ap.audio.paused`: 返回音频是否暂停
 
- + most [native api](http://www.w3schools.com/tags/ref_av_dom.asp) are supported
+ + 支持大多数[原生audio接口](http://www.w3schools.com/tags/ref_av_dom.asp)
 
-## Event binding
+## 事件绑定
 
 `ap.on(event, handler)`
 
@@ -240,7 +241,7 @@ ap.on('ended', function () {
 });
 ```
 
-Audio events
+音频事件
 
 - abort
 - canplay
@@ -266,7 +267,7 @@ Audio events
 - volumechange
 - waiting
 
-Player events
+播放器事件
 
 - listshow
 - listhide
@@ -280,17 +281,17 @@ Player events
 - lrcshow
 - lrchide
 
-## LRC
+## 歌词
 
-We have three ways to pass LRC to APlayer, indicate the way to pass LRC by option `lrcType`, then put lrc to option `audio.lrc` or HTML.
+我们有三种方式来给 APlayer 传递歌词，使用 `lrcType` 参数指明使用哪种方式，然后把歌词放到 `audio.lrc` 参数或者 HTML 里。
 
 <div class="aplayer-wrap">
-    <div id="aplayer4"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer4"><button class="docute-button load">点击加载播放器</div>
 </div>
 
-### LRC file
+### LRC 文件方式
 
-The first way, put LRC to a LRC file, LRC file will be loaded when this audio start to play.
+第一种方式，把歌词放到 LRC 文件里，音频播放时会加载对应的 LRC 文件。
 
 ```js
 const ap = new APlayer({
@@ -306,9 +307,9 @@ const ap = new APlayer({
 });
 ```
 
-### LRC string in JS
+### JS 字符串方式
 
-The second way, put LRC to a JS string.
+第二种方式，把歌词放到 JS 字符串里面。
 
 ```js
 const ap = new APlayer({
@@ -324,9 +325,9 @@ const ap = new APlayer({
 });
 ```
 
-### LRC in HTML
+### HTML 方式
 
-The third way, put LRC to HTML.
+第三种方式，把歌词放到 HTML 里面。
 
 ```html
 <link rel="stylesheet" href="APlayer.min.css">
@@ -368,9 +369,9 @@ const ap = new APlayer({
 });
 ```
 
-### LRC format
+### 歌词格式
 
-The following LRC format are supported:
+支持下面格式的歌词：
 
 `[mm:ss]APlayer`
 
@@ -384,12 +385,12 @@ The following LRC format are supported:
 
 `[mm:ss.xx]amazing[mm:ss.xx]APlayer`
 
-## Playlist
+## 播放列表
 
-APlayer will show a playlist when it has more than one audio, option `listFolded` indicates whether list should folded at first, and option `listMaxHeight` indicates list max height.
+当有多个音频时会 APlayer 会展示一个播放列表，`listFolded` 参数指明列表是否默认折叠，`listMaxHeight` 参数指明列表最大高度。
 
 <div class="aplayer-wrap">
-    <div id="aplayer5"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer5"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```js
@@ -418,13 +419,12 @@ const ap = new APlayer({
     ]
 });
 ```
+## 吸底模式
 
-## Fixed mode
-
-APlayer can be fixed to page bottom via fixed mode, fixed mode is a very different mode, enjoy it!
+APlayer 可以通过吸底模式固定在页面底部，这种模式跟普通模式有很大不同。
 
 <div class="aplayer-wrap">
-    <div id="aplayer9"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer9"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```js
@@ -440,14 +440,14 @@ const ap = new APlayer({
 });
 ```
 
-## Mini mode
+## 迷你模式
 
-If you don't have enough space for normal player, mini mode might be your choice.
+如果你没有足够空间来放置正常模式的播放器，那么你可以考虑使用迷你模式。
 
-Please note that mini mode is conflicted with fixed mode.
+请注意迷你模式与吸底模式冲突。
 
 <div class="aplayer-wrap">
-    <div id="aplayer6"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer6"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```js
@@ -463,14 +463,14 @@ const ap = new APlayer({
 });
 ```
 
-## MSE support
+## MSE 支持
 
 ### HLS
 
-It requires the library [hls.js](https://github.com/video-dev/hls.js) and it should be loaded before `APlayer.min.js`.
+需要在 `APlayer.min.js` 前面加载 [hls.js](https://github.com/video-dev/hls.js)。
 
 <div class="aplayer-wrap">
-    <div id="aplayer7"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer7"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```html
@@ -494,7 +494,7 @@ const ap = new APlayer({
 ```
 
 ```js
-// another way, use customType
+// 另一种方式，使用 customAudioType
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     audio: [{
@@ -522,12 +522,12 @@ const ap = new APlayer({
 });
 ```
 
-## Self-adapting theme according to cover
+## 根据封面自适应主题色
 
-It requires the library [color-thief](https://github.com/lokesh/color-thief/blob/master/src/color-thief.js).
+需要额外加载 [color-thief.js](https://github.com/lokesh/color-thief/blob/master/src/color-thief.js)
 
 <div class="aplayer-wrap">
-    <div id="aplayer8"><button class="docute-button load">Click to load player</div>
+    <div id="aplayer8"><button class="docute-button load">点击加载播放器</div>
 </div>
 
 ```html
@@ -563,8 +563,8 @@ const setTheme = (index) => {
     }
 };
 setTheme(ap.list.index);
-ap.on('listswitch', (data) => {
-    setTheme(data.index);
+ap.on('listswitch', (index) => {
+    setTheme(index);
 });
 ```
 
@@ -574,8 +574,8 @@ ap.on('listswitch', (data) => {
 - [cdnjs](https://cdnjs.com/libraries/aplayer)
 - [unpkg](https://unpkg.com/aplayer/)
 
-## FAQ
+## 常见问题
 
-### Why can't player autoplay in some mobile browsers?
+### 为什么播放器不能在手机上自动播放？
 
-Most mobile browsers forbid audio autoplay, you wont be able to achieve it without hacks.
+大多数移动端浏览器禁止了音频自动播放。
