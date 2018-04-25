@@ -1,53 +1,49 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>HTML5 Audio player với playlist đơn giản bằng jQuery</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>APlayer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/docute.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docute/dist/theme-github.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48084758-8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <!-- add styles and scripts -->
-    <link href="demo.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="http://www.thuthuatweb.net/wp-content/themes/HostingSite/favicon.ico" type="image/x-ico"/>
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    gtag('config', 'UA-48084758-8');
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+  <style>
+    body {
+      text-rendering: auto;
+    }
+    #evanyou-canvas {
+      z-index: -1 !important;
+    }
+    .aplayer-wrap {
+      max-width: 700px;
+      margin: 20px 0;
+    }
+    .sidebar-toggle {
+      z-index: 90;
+    }
+  </style>
 </head>
 <body>
-
-    <div class="example">
-
-        <div class="player">
-            <div class="pl"></div>
-            <div class="title"></div>
-            <div class="artist"></div>
-            <div class="cover"></div>
-            <div class="controls">
-                <div class="play"></div>
-                <div class="pause"></div>
-                <div class="rew"></div>
-                <div class="fwd"></div>
-            </div>
-            <div class="volume"></div>
-            <div class="tracker"></div>
-        </div>
-        <ul class="playlist hidden">
-            <li audiourl="https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3">នឹកគ្រប់វេលា</li>
-            <li audiourl="03.mp3" cover="cover3.jpg" artist="Artist 3">03.mp3</li>
-            <li audiourl="04.mp3" cover="cover4.jpg" artist="Artist 4">04.mp3</li>
-            <li audiourl="05.mp3" cover="cover5.jpg" artist="Artist 5">05.mp3</li>
-            <li audiourl="06.mp3" cover="cover6.jpg" artist="Artist 6">06.mp3</li>
-            <li audiourl="07.mp3" cover="cover7.jpg" artist="Artist 7">07.mp3</li>
-        </ul>
-
-    </div>
-    
-<div class="footer-bar">
-    <span class="article-wrapper">
-        <span class="article-label">Xem Bài Viết: </span>
-        <span class="article-link"><a href="http://www.thuthuatweb.net/javacript/html5-audio-player-voi-playlist-don-gian-bang-jquery.html">HTML5 Audio player với playlist đơn giản bằng jQuery</a></span>
-    </span>
-    
-</div>
+  <!-- don't remove this part start -->
+  <div id="app"></div>
+  <script src="https://cdn.jsdelivr.net/npm/docute/plugins/docsearch.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docute-evanyou/dist/evanyou.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docute/dist/docute.js"></script>
+  <script src="./config.js"></script>
+  <!-- livereload script placeholder -->
+  <!-- don't remove this part end -->
 </body>
 </html>
