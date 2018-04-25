@@ -1,67 +1,54 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>How to: build a responsive audio player with HTML5, SASS and JS - Part 2</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/scripts-dist.js"></script>
-</head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>HTML5 Audio player với playlist đơn giản bằng jQuery</title>
 
+    <!-- add styles and scripts -->
+    <link href="demo.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="http://www.thuthuatweb.net/wp-content/themes/HostingSite/favicon.ico" type="image/x-ico"/>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
 <body>
 
-        <div id="music-player"> <!-- The full black bar -->
-          <div class="inner"> <!-- Keeping everything centered -->
+    <div class="example">
 
-            <!-- The Audio -->
-            <audio id="audio" src="song.mp3"></audio>
-            
-           <!-- The controls -->
-           <div class="controls">
-            <a class="previous" href="#"><img src="img/previous.svg"></a>
-            <a class="play" href="#"><img src="img/music-playerplay.png"></a>
-            <a class="pause" href="#" style="display:none;"><img src="img/music-playerpause.png"></a>
-            <a class="next" href="#"><img src="img/next.svg"></a>
-           </div>
-           
-           <!-- The play bar -->
-           <div class="play-bar">
-            <span id="time">0:00</span>
-            <div class="bar-bg">
-             <div class="progress"></div>
+        <div class="player">
+            <div class="pl"></div>
+            <div class="title"></div>
+            <div class="artist"></div>
+            <div class="cover"></div>
+            <div class="controls">
+                <div class="play"></div>
+                <div class="pause"></div>
+                <div class="rew"></div>
+                <div class="fwd"></div>
             </div>
-            <span id="total-time">0:00</span>
-           </div>
+            <div class="volume"></div>
+            <div class="tracker"></div>
+        </div>
+        <ul class="playlist hidden">
+            <li <audio ="audio" src="song.mp3"></audio>01.mp3</li>
+            <li audiourl="02.mp3" cover="cover2.jpg" artist="Artist 2">02.mp3</li>
+            <li audiourl="03.mp3" cover="cover3.jpg" artist="Artist 3">03.mp3</li>
+            <li audiourl="04.mp3" cover="cover4.jpg" artist="Artist 4">04.mp3</li>
+            <li audiourl="05.mp3" cover="cover5.jpg" artist="Artist 5">05.mp3</li>
+            <li audiourl="06.mp3" cover="cover6.jpg" artist="Artist 6">06.mp3</li>
+            <li audiourl="07.mp3" cover="cover7.jpg" artist="Artist 7">07.mp3</li>
+        </ul>
 
-           <div class="song-content"> <!-- The songs meta -->
-
-            <div class="user-info">
-             <!-- The song cover -->
-             <div class="img-wrapper">
-              <img src="img/cover-art.png">
-             </div>
-             <!-- The artist name and song title -->
-             <div class="song-info">
-              <span class="artist">Artist Name</span>
-              <span class="song">Song Name</span>
-             </div>
-            </div>
-
-            <!-- Comment counter -->
-            <div class="comment-icon">
-             <a href="#">
-              <img src="img/comments.svg">
-              <span>7</span>
-             </a>
-            </div>
-
-           </div> <!-- The songs meta END -->
-          </div> <!-- Keeping everything centered END -->
-        </div> <!-- The full black bar END -->
-
+    </div>
+    
+<div class="footer-bar">
+    <span class="article-wrapper">
+        <span class="article-label">Xem Bài Viết: </span>
+        <span class="article-link"><a href="http://www.thuthuatweb.net/javacript/html5-audio-player-voi-playlist-don-gian-bang-jquery.html">HTML5 Audio player với playlist đơn giản bằng jQuery</a></span>
+    </span>
+    
+</div>
 </body>
-
 </html>
