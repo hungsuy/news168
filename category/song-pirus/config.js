@@ -5,7 +5,7 @@ const langs = [
 
 docute.init({
     landing: 'landing.html',
-    title: 'APlayer',
+    title: 'ស្ដាប់ចម្រៀងពិរោះៗ',
     repo: 'DIYgod/APlayer',
     twitter: 'DIYgod',
     'edit-link': 'https://github.com/MoePlayer/APlayer/tree/master/docs',
