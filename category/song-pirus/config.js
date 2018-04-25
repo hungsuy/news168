@@ -85,16 +85,16 @@ function aplayer1 () {
         theme: '#F57F17',
         lrcType: 3,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
+            name: 'នឹកគ្រប់វេលា',
+            artist: 'ស៊ីនស៊ីសាមុត',
             url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
             cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
+            name: 'កណ្ដាលដួងចិត្ត',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://www.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3?dl=0',
             cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
