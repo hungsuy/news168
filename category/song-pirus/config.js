@@ -128,17 +128,17 @@ function aplayer0 () {
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.lrc',
             theme: '#505d6b'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }]
@@ -149,10 +149,11 @@ function aplayer2 () {
     window.ap2 = new APlayer({
         container: document.getElementById('aplayer2'),
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }]
     });
@@ -172,17 +173,17 @@ function aplayer3 () {
         listMaxHeight: '90px',
         lrcType: 3,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
@@ -201,11 +202,11 @@ function aplayer4 () {
         container: document.getElementById('aplayer4'),
         lrcType: 3,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
-            lrc: "https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc",
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }]
     });
@@ -216,17 +217,17 @@ function aplayer5 () {
         container: document.getElementById('aplayer5'),
         lrcType: 3,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
@@ -245,10 +246,11 @@ function aplayer6 () {
         container: document.getElementById('aplayer6'),
         mini: true,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }]
     });
@@ -258,23 +260,26 @@ function aplayer7 () {
     window.ap7 = new APlayer({
         container: document.getElementById('aplayer7'),
         audio: [{
-            name: '光るなら(HLS)',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hls/hikarunara.m3u8',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
-            theme: '#ebd0c2',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
+            theme: '#ebd0c2'
             type: 'hls'
         }, {
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
             name: '前前前世',
@@ -291,15 +296,15 @@ function aplayer8 () {
         container: document.getElementById('aplayer8'),
         theme: '#e9e9e9',
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
         }, {
             name: '前前前世',
             artist: 'RADWIMPS',
@@ -324,17 +329,17 @@ function aplayer9 () {
         fixed: true,
         lrcType: 3,
         audio: [{
-            name: '光るなら',
-            artist: 'Goose house',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.jpg',
+            name: 'នឹកគ្រប់វេលា',
+                artist: 'ស៊ីនស៊ីសាមុត',
+                url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
