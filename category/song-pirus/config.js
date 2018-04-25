@@ -88,7 +88,8 @@ function aplayer1 () {
             name: 'នឹកគ្រប់វេលា',
                 artist: 'ស៊ីនស៊ីសាមុត',
                 url: 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
-                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg'
+                cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
+            lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
             name: 'トリカゴ',
