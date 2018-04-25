@@ -99,9 +99,9 @@ function aplayer1 () {
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
-            name: '前前前世',
-            artist: 'RADWIMPS',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.mp3',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
             cover: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/yourname.lrc',
             theme: '#505d6b'
