@@ -94,7 +94,7 @@ function aplayer1 () {
         }, {
             name: 'កណ្ដាលដួងចិត្ត',
             artist: 'ស៊ីនស៊ីសាមុត',
-            url: 'https://www.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3?dl=0',
+            url: 'https://dl.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3',
             cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
