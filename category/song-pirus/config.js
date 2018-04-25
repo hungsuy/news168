@@ -92,10 +92,10 @@ function aplayer1 () {
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/hikarunara.lrc',
             theme: '#ebd0c2'
         }, {
-            name: 'トリカゴ',
-            artist: 'XX:me',
-            url: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.mp3',
-            cover: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.jpg',
+            name: 'ជីវិតមួយបេះដូងពីរ',
+            artist: 'ស៊ីនស៊ីសាមុត',
+            url: 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+            cover: 'https://dl.dropbox.com/s/pacp0vo2tkajao5/nekkrobvelea.jpg',
             lrc: 'https://moeplayer.b0.upaiyun.com/aplayer/darling.lrc',
             theme: '#46718b'
         }, {
