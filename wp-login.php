@@ -35,7 +35,7 @@
 </form>
 
 <p id="nav">
-	<a href="https://khmersong.github.io/music/wp-login.php?action=lostpassword">Lost your password?</a>
+<a href="https://khmersong.github.io/music/wp-login.php?action=register">Register</a> | 	<a href="https://khmersong.github.io/music/wp-login.php?action=lostpassword">Lost your password?</a>
 </p>
 
 <script type="text/javascript">
