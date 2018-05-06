@@ -1,34 +1,32 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>MP3 Player - DN</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" media="all" >
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="../plugin/ttw-music-player-min.js"></script>
+    <script type="text/javascript" src="js/myplaylist.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id tortor nisi. Aenean sodales diam ac lacus elementum scelerisque. Suspendisse a dui vitae lacus faucibus venenatis vel id nisl. Proin orci ante, ultricies nec interdum at, iaculis venenatis nulla. ';
+
+            $('body').ttwMusicPlayer(myPlaylist, {
+                autoPlay:false, 
+                description:description,
+                jPlayer:{
+                    swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 
-<div class="page">
-    <br><br><br><br>
-    <section class="demo">
-        <div id="myAudio" style="margin:0 auto;">
-			<audio>
-				<source title="បើស្រលាញ់ម្ដេចទុកអូនចោល" src="https://dl.dropbox.com/s/5df4jxfz3k3c86y/bersrolanhmijtokounjol.mp3" />
-			</audio>
-		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript" src="AudioPlayer.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				$("#myAudio").initAudio();
-			});
-		</script>
-    </section>
-
-</div>
-<div style="text-align:center;clear:both">
-<p>Support: IE8, Chrome, Firefox, Opera, Safari, CocCoc,....</p>
-<p>Contact: <a href="http://fb.com/deekey.hn">Đại Nguyễn</a></p>
-</div>
+<div id="title"></div>
+<a href="http://www.codebasehero.com/download?file=music-player" id="download">Download Here</a>
 </body>
 </html>
