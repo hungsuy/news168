@@ -8,7 +8,7 @@ var musicList = [
         singer : 'កែវ សារ៉ាត់',
         cover  : 'https://dl.dropbox.com/s/fds9wviss3csvhs/2.jpg',
         src    : 'https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+		
     },
     {
         title : '车站',
