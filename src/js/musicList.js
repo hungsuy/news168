@@ -13,36 +13,36 @@ var musicList = [
     {
         title : 'ជីវិតមួយបេះដូងពីរ',
         singer : 'ស៊ីនស៊ីសាមុត',
+        cover  : 'https://dl.dropbox.com/s/fl2kho5nj5sxcyc/Untitled-2.jpg',
+        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+		lyric  : "src/data/yqdmfsg.lrc"
+    },
+    {
+        title : 'កណ្ដាលដួងចិត្ត',
+        singer : 'ស៊ីនស៊ីសាមុត',
+        cover  : 'https://dl.dropbox.com/s/ci3z490mks4vad1/Untitled-3.jpg',
+        src    : 'https://dl.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3',
+		lyric  : "src/data/yqdmfsg.lrc"
+    },
+    {
+        title : 'ក្រោមមេឃលើដី',
+        singer : 'ស៊ីនស៊ីសាមុត',
+        cover  : 'https://dl.dropbox.com/s/7acqy695vakoeg6/Untitled-4.jpg',
+        src    : 'https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3',
+		lyric  : "src/data/yqdmfsg.lrc"
+    },
+    {
+        title : 'ជីវិតមួយបេះដូងពីរ',
+        singer : 'ស៊ីនស៊ីសាមុត',
         cover  : 'https://dl.dropbox.com/s/b5pyet8tgplnlhl/Untitled%202.png',
         src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
 		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
-        title : '年轮 ',
-        singer : '张碧晨',
-        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/1EyrQ3.jpg',
-        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/HpaN71.mp3',
-		lyric  : "src/data/nianlun.lrc"
-    },
-    {
-        title : '她说',
-        singer : '张碧晨',
-        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/zUlA31.jpg',
-        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1O1TO4.mp3',
-		lyric  : null
-    },
-    {
-        title : '赤血长殷',
-        singer : '王凯',
-        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/eukCI.jpg',
-        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/14hk24.mp3',
-		lyric  : null
-    },
-    {
-        title : 'My Love',
-        singer : 'WestLife',
-        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/NYBS32.jpg',
-        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1IdhM4.mp3',
-		lyric  : null
+        title : 'ជីវិតមួយបេះដូងពីរ',
+        singer : 'ស៊ីនស៊ីសាមុត',
+        cover  : 'https://dl.dropbox.com/s/b5pyet8tgplnlhl/Untitled%202.png',
+        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+		lyric  : "src/data/yqdmfsg.lrc"
     }
 ];
