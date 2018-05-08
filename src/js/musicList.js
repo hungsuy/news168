@@ -4,9 +4,16 @@
     
 var musicList = [
     {
+<<<<<<< HEAD
         title : 'នឹកគ្រប់វេលា',
         singer : 'ស៊ីនស៊ីសាមុត',
         src    : 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+=======
+        title : 'សូរិយាគងព្រៃ',
+        singer : 'កែវ សារ៉ាត់',
+        cover  : 'https://dl.dropbox.com/s/fds9wviss3csvhs/2.jpg',
+        src    : 'https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3',
+>>>>>>> 81c8c20939bbcd6c61e404851be5559cda5e8762
 		
     },
     {
