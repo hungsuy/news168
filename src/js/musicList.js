@@ -32,17 +32,17 @@ var musicList = [
 		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
-        title : 'ជីវិតមួយបេះដូងពីរ',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/b5pyet8tgplnlhl/Untitled%202.png',
-        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+        title : 'សម្រស់សោភា',
+        singer : 'ឈួយ សុភាព',
+        cover  : 'https://dl.dropbox.com/s/d82l0idtzzswlps/Untitled-5.jpg',
+        src    : 'https://dl.dropbox.com/s/bdyi484wzhwhija/somros%20sophea.mp3',
 		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
-        title : 'ជីវិតមួយបេះដូងពីរ',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/b5pyet8tgplnlhl/Untitled%202.png',
-        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+        title : 'សូរិយាគងព្រៃ',
+        singer : 'កែវ សារ៉ាត់',
+        cover  : 'https://dl.dropbox.com/s/4rl5j3anb84kkje/Untitled-6.jpg',
+        src    : 'https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3',
 		lyric  : "src/data/yqdmfsg.lrc"
     }
 ];
