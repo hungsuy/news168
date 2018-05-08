@@ -11,7 +11,7 @@
 	<meta name="author" content="smohan,http://www.smohan.net/">
     <link rel="shortcut icon" type="image/ico" href="http://data.smohan.net/static/img/favicon.ico?version=5.0.3">
     <link rel="stylesheet" href="http://data.smohan.net/static/css/demo.css">
-    <link rel="stylesheet" href="https://dl.dropbox.com/s/rst4nod4bjwlsfp/smusic.css"/>
+    <link rel="stylesheet" href="src/css/smusic.css"/>
     <title>HTML5音乐播放器SMusic</title>
 </head>
 <body>
@@ -67,11 +67,11 @@
 </div>
 
 
-<script src="https://dl.dropbox.com/s/n4n53779xlusz6l/musicList.js"></script>
-<script src="src/js/https://dl.dropbox.com/s/whvanxal0j0il0z/smusic.js"></script>
+<script src="src/js/musicList.js"></script>
+<script src="src/js/smusic.js"></script>
 <script>
-    new https://dl.dropbox.com/s/whvanxal0j0il0z/smusic.js({
-        https://dl.dropbox.com/s/n4n53779xlusz6l/musicList.js : https://dl.dropbox.com/s/n4n53779xlusz6l/musicList.js,
+    new SMusic({
+        musicList : musicList,
         autoPlay  : true,  //是否自动播放
         defaultMode : 2,   //默认播放模式，随机
         callback   : function (obj) {  //返回当前播放歌曲信息
