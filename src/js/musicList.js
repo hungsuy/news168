@@ -11,11 +11,11 @@ var musicList = [
 		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
-        title : '车站',
-        singer : '李健',
-        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/1DYuS4.jpg',
-        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1VvcW3.mp3',
-		lyric  : "src/data/chezhan.lrc"
+        title : 'ជីវិតមួយបេះដូងពីរ',
+        singer : 'ស៊ីនស៊ីសាមុត',
+        cover  : 'https://dl.dropbox.com/s/b5pyet8tgplnlhl/Untitled%202.png',
+        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
+		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
         title : '年轮 ',
