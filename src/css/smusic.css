@@ -45,8 +45,8 @@ header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{d
 ::-webkit-scrollbar-thumb:vertical:active {background-color: #2e86ef}
 
 html,body{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     background-color: #3792ef;
     overflow: hidden;
     font-family: "Microsoft Yahei","微软雅黑","Helvetica Neue","Hiragino Sans GB",Helvetica,Tahoma,sans-serif;
