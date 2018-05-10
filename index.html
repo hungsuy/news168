@@ -15,10 +15,12 @@
     <title>HTML5音乐播放器SMusic</title>
 </head>
 <body>
-<div class="side-nav">
-    <a href="index.html" class="side-nav-button">ចម្រៀងបុរាណ</a>
-    <a href="index.html" class="side-nav-button">ចម្រៀងសម័យ</a>
-  </div>
+
+<div class="grid-demo-info">
+    <h1 class="m-demo-title">HTML5音乐播放器SMusic</h1>
+    <p class="m-demo-summary">项目地址：<a href="http://www.smohan.net/lab/smusic.html">http://www.smohan.net/lab/smusic.html</a></p>
+</div>
+
 <div class="grid-music-container f-usn">
     <div class="m-music-play-wrap">
         <div class="u-cover"></div>
@@ -59,13 +61,19 @@
         </div>
     </div>
 </div>
+
+<div class="m-demo-copyright">
+    <p>Copyright © 2012-2015 Smohan. All Rights Reserved.V.5.0.3.蜀ICP备13000297号-2.</p>
+</div>
+
+
 <script src="src/js/musicList.js"></script>
 <script src="src/js/smusic.js"></script>
 <script>
     new SMusic({
         musicList : musicList,
         autoPlay  : true,  //是否自动播放
-        defaultMode : 1,   //默认播放模式，随机
+        defaultMode : 2,   //默认播放模式，随机
         callback   : function (obj) {  //返回当前播放歌曲信息
             console.log(obj);
             /*{title: "赤血长殷", singer: "王凯", cover: "http://data.smohan.net/upload/other/cxcy/cover.jpg", src: "http://data.smohan.net/upload/other/cxcy/music.mp3", index: 4}*/

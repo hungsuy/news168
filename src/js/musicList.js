@@ -4,45 +4,45 @@
     
 var musicList = [
     {
-        title : 'នឹកគ្រប់វេលា',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/y7aw89g1l3g7ova/Untitled-1.png',
-        src    : 'https://dl.dropbox.com/s/5v24baf6n2pi6y5/nekkrobvelea.mp3',
+        title : '如果一切没有发生过',
+        singer : '张碧晨',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/rYcmv.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/Cm45K2.mp3',
 		lyric  : "src/data/yqdmfsg.lrc"
     },
     {
-        title : 'ជីវិតមួយបេះដូងពីរ',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/fl2kho5nj5sxcyc/Untitled-2.jpg',
-        src    : 'https://dl.dropbox.com/s/5n2ci3exggh9jnr/chivithmoury%20besdoung%20pi.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+        title : '车站',
+        singer : '李健',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/1DYuS4.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1VvcW3.mp3',
+		lyric  : "src/data/chezhan.lrc"
     },
     {
-        title : 'កណ្ដាលដួងចិត្ត',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/ci3z490mks4vad1/Untitled-3.jpg',
-        src    : 'https://dl.dropbox.com/s/hemc15zfqslo607/kandaldourngchet.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+        title : '年轮 ',
+        singer : '张碧晨',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/1EyrQ3.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/HpaN71.mp3',
+		lyric  : "src/data/nianlun.lrc"
     },
     {
-        title : 'ក្រោមមេឃលើដី',
-        singer : 'ស៊ីនស៊ីសាមុត',
-        cover  : 'https://dl.dropbox.com/s/7acqy695vakoeg6/Untitled-4.jpg',
-        src    : 'https://dl.dropbox.com/s/kmn3xz5qrhin8au/krommeklerdey.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+        title : '她说',
+        singer : '张碧晨',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/zUlA31.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1O1TO4.mp3',
+		lyric  : null
     },
     {
-        title : 'សម្រស់សោភា',
-        singer : 'ឈួយ សុភាព',
-        cover  : 'https://dl.dropbox.com/s/d82l0idtzzswlps/Untitled-5.jpg',
-        src    : 'https://dl.dropbox.com/s/bdyi484wzhwhija/somros%20sophea.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+        title : '赤血长殷',
+        singer : '王凯',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/eukCI.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/14hk24.mp3',
+		lyric  : null
     },
     {
-        title : 'សូរិយាគងព្រៃ',
-        singer : 'កែវ សារ៉ាត់',
-        cover  : 'https://dl.dropbox.com/s/4rl5j3anb84kkje/Untitled-6.jpg',
-        src    : 'https://dl.dropbox.com/s/uh4tgyzbtf28fud/soriyakongprey.mp3',
-		lyric  : "src/data/yqdmfsg.lrc"
+        title : 'My Love',
+        singer : 'WestLife',
+        cover  : 'http://7xonl1.com1.z0.glb.clouddn.com/NYBS32.jpg',
+        src    : 'http://7xonl1.com1.z0.glb.clouddn.com/1IdhM4.mp3',
+		lyric  : null
     }
 ];
