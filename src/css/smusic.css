@@ -54,7 +54,7 @@ html,body{
 
 /*SMusic*/
 .grid-music-container{
-    width: 310px;
+    width: 320px;
     height: 276px;
     padding: 20px;
     position: relative;
@@ -137,7 +137,7 @@ html,body{
     overflow: hidden;
 }
 .grid-music-container .m-now-controls .u-process{
-    width: 220px;
+    width: 150px;
     height: 4px;
     position: relative;
     background-color: #cecfd4;
