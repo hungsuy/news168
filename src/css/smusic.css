@@ -65,7 +65,7 @@ html,body{
 }
 
 .grid-music-container .m-music-play-wrap{
-    height: 150px;
+    height: 155px;
     position: relative;
     padding-left: 140px;
 }
@@ -117,12 +117,12 @@ html,body{
     font-weight: normal;
 }
 .grid-music-container .m-now-info h1 strong{
-    font-size: 12px;
+    font-size: 14px;
     color: #111210;
     font-weight: normal;
 }
 .grid-music-container .m-now-info h1 small{
-    margin-left: 20px;
+    margin-right: 100px;
     font-size: 14px;
     color: #313230;
 }
@@ -137,7 +137,7 @@ html,body{
     overflow: hidden;
 }
 .grid-music-container .m-now-controls .u-process{
-    width: 200px;
+    width: 120px;
     height: 4px;
     position: relative;
     background-color: #cecfd4;
