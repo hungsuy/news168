@@ -137,7 +137,7 @@ html,body{
     overflow: hidden;
 }
 .grid-music-container .m-now-controls .u-process{
-    width: 120px;
+    width: 125px;
     height: 4px;
     position: relative;
     background-color: #cecfd4;
@@ -159,7 +159,7 @@ html,body{
 }
 .grid-music-container .m-now-controls .u-time{
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 13px;
     color: #585957;
 }
 .grid-music-container .m-now-controls .u-volume{
