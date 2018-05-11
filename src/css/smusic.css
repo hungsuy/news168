@@ -117,7 +117,7 @@ html,body{
     font-weight: normal;
 }
 .grid-music-container .m-now-info h1 strong{
-    font-size: 18px;
+    font-size: 12px;
     color: #111210;
     font-weight: normal;
 }
@@ -127,7 +127,7 @@ html,body{
     color: #313230;
 }
 .grid-music-container .m-now-controls{
-    padding-top: 30px;
+    padding-top: 20px;
     position: relative;
 }
 .grid-music-container .m-now-controls .u-control{
