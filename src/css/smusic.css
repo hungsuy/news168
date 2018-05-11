@@ -117,14 +117,14 @@ html,body{
     font-weight: normal;
 }
 .grid-music-container .m-now-info h1 strong{
-    font-size: 14px;
-    color: #111210;
+    font-size: 16px;
+    color: #FF0000;
     font-weight: normal;
 }
 .grid-music-container .m-now-info h1 small{
-    margin-right: 100px;
+    margin-left: 1px;
     font-size: 14px;
-    color: #313230;
+    color: #FF0000;
 }
 .grid-music-container .m-now-controls{
     padding-top: 20px;
@@ -159,7 +159,7 @@ html,body{
 }
 .grid-music-container .m-now-controls .u-time{
     margin-left: 10px;
-    font-size: 12px;
+    font-size: 14px;
     color: #585957;
 }
 .grid-music-container .m-now-controls .u-volume{
