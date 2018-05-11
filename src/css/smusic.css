@@ -59,9 +59,9 @@ html,body{
     padding: 20px;
     position: relative;
     margin: -30px auto;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(0,0,255,0.3);
     font-family: "Microsoft Yahei","微软雅黑","Helvetica Neue","Hiragino Sans GB",Helvetica,Tahoma,sans-serif;
-    text-shadow: 1px 0 0 rgba(255,255,255,.7);
+    text-shadow: 1px 0 0 rgba(0,0,255,0.3);
 }
 
 .grid-music-container .m-music-play-wrap{
